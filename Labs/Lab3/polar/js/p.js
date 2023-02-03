@@ -21,7 +21,6 @@ function setup(){
 }
 
 function draw(){
-    background(255);
     //calls the polar function
     let res = polarPoint(40);
     translate(100,100);
