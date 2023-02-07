@@ -2,12 +2,9 @@
 // 02/02/23
 // N220
 
-//create an object to store the ball's size, color, and velocity
+//create two tall rectangles as objects with position and size defined
+//Each rectangle will be drawn on opposite sides of the screen
 
-//use the draw function to draw the ball
-
-//If the x coordinate of the circle is less than 800 pixels
-//Then, move the circle to the right 5 pixels
-
-//If the x coordinate is greater than 800 pixels
-//Then, reset the x coordinate of the object to the left side of the screen
+//draw both of the rectangles using the draw function
+//if up key is pressed, then move obj 1 up and obj 2 down
+//if down key is pressed, then move obj 1 down and obj 2 up
