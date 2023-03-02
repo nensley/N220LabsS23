@@ -11,6 +11,7 @@
 function divChange(num){
     //makes all 6 divs return their default properties
     for(i=1;i<7;i++){
+        //changes all of the div's to original settings
         let bro = document.getElementById(i)
         bro.style.backgroundColor = "red";
         bro.style.fontWeight = "normal"
