@@ -16,7 +16,7 @@ let output = document.getElementById("txt")
 //when button is pressed, divisibility check is ran and result is added to the div
 function test(){
     //if the divisibility check of the number is true
-    if(checkDivisibility(numInput)){
+    if(checkDivisibility(numInput.value)){
         //then tell, the user that the number is divisible by 7
         output.innerHTML = numInput.value + " is divisible by 7"
     }
