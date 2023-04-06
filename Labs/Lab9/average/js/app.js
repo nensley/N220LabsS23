@@ -36,4 +36,6 @@ div.innerHTML= "Sum: " + sum;
 div2.innerHTML = "Average: " + average
 //resets the inputs value
 inputString.value = ""
+//resets the sum to 0
+sum = 0
 }
