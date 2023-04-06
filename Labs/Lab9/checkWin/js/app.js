@@ -22,12 +22,15 @@ let numberArray = inputArray.map(Number);
 let count = 0
 //runs through the arrays' values in a row
 for(let i=0;i < numberArray.length; i++){
+    //resets the count to 0
+    count = 0
     for(let j=0;j <= 2; j++) {
         //if a value in the arrays equals 1, it adds 1 to the count
         if(numberArray[i+j] == 1) count++
-        //if the next value is not also 1, then it resets the count
-        else count = 0
-     }
+        //if the next value is not also 1, then it goes to the next set of numbers
+        else break
+    }
+     console.log(count)
     //if three in a row, then break and display "winner"
     if (count == 3) {
         div.innerHTML = "Winner"
