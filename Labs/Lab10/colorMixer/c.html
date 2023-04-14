@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .backdiv{
+            height: 300px;
+            background-color: black;
+        }
+        .updatediv{
+           border-style:solid;
+            border-color:grey;
+           border-width: 8px;
+           height:50px;
+            font-weight: 800;
+            background-color:white;
+            color: grey;
+           text-align: center;
+           font-size:xx-large;
+        }
+        .rectbutton{
+           width: 90px;
+           height: 41px;
+           margin: 5px;
+           display:inline-block;
+           background-color: rgb(227, 224, 224);
+           text-align: center;
+           font-size:xx-large;
+           color:whitesmoke;
+           font-weight: 800;
+        }
+        .colordiv{
+            width: 50px;
+            height: 20px;
+            text-align: left;
+            font-size: larger;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="backdiv"></div>
+    <div class="updatediv">current color: rgb(0,0,0)</div>
+    
+    <div class="colordiv">Red:</div>
+    <div onclick="clicked(event)" class="rectbutton" data-color="red" data-attribute="1">+1</div>
+    <div onclick="clicked(event)" class="rectbutton" data-color="red" data-attribute="5">+5</div>
+    <div onclick="clicked(event)" class="rectbutton" data-color="red" data-attribute="10">+10</div>
+    
+    <div class="colordiv">Green:</div>
+    <div onclick="clicked(event)" class="rectbutton" data-color="green" data-attribute="1">+1</div>
+    <div onclick="clicked(event)" class="rectbutton" data-color="green" data-attribute="5">+5</div>
+    <div onclick="clicked(event)" class="rectbutton" data-color="green" data-attribute="10">+10</div>
+
+    <div class="colordiv">Blue:</div>
+    <div onclick="clicked(event)" class="rectbutton" data-color="blue" data-attribute="1">+1</div>
+    <div onclick="clicked(event)" class="rectbutton" data-color="blue" data-attribute="5">+5</div>
+    <div onclick="clicked(event)" class="rectbutton" data-color="blue" data-attribute="10">+10</div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
