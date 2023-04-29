@@ -139,6 +139,6 @@ function reset(){
     count = 0;
     //resets the display box to nothing
     infoDisplay.textContent=""
-    //hides the button from view
+    //hides the button from user view
     button.style.visibility = "hidden"
 }
